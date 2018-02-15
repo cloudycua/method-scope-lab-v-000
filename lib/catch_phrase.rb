@@ -1,7 +1,3 @@
-require 'pry'
-
-def catch_phrase
-  name="Hello World"
-  binding.pry
-  puts name
+def catch_phrase(phrase)
+  puts phrase
 end
